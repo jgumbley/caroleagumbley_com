@@ -1,0 +1,84 @@
+/* Stylesheet, Carole A Gumbley */
+
+/* Globals  -------------------------------------------------------------------------- */
+
+body 	{	
+		font-family: Helvetica, Verdana, Arial, sans-serif;
+		background: black;
+		margin: 0;
+		padding: 0;
+	}
+
+	
+#header h1 	{	
+		color: #FFD06B;
+		text-align: right;
+		font-size: xx-large;
+	}
+
+#header h2 	{	
+		color: #FF402B;
+		text-align: right;
+		margin-top: -15px;
+		font-size: large;
+	}
+
+a 		{text-decoration: none;}
+
+.cag-dark-text {
+	font-size: small;
+	color:  #FF402B;
+	text-align: left;
+	padding: 2px;
+}
+
+.cag-light-text {
+	font-size: small;
+	color: #FFD06B;
+	text-align: left;
+	padding: 2px;
+}
+
+#frame {
+	width:650px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	padding:0px;
+	}
+	
+#box {
+ 	margin-top: 3px;
+ 	margin-bottom: 3px;
+ 	margin-right: 2px;
+	margin-left:2px;
+	height: 200px;
+
+}
+
+#footer {
+ 		width: 100%;
+		line-height: 20%;
+		margin-top: 50px;
+		text-align: left;
+ }
+
+#centrepanel {
+	padding: 7px;
+	background: #FF9;
+ 	text-align: left;
+}
+
+#centrepanel h2	{
+	text-align: left;
+		color:  #FF402B;
+}
+
+#centrepanel p	{
+	margin-bottom: 4px;
+}
+
+#centrepanel li	{
+	margin-bottom: 4px;
+}
+
