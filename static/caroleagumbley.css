@@ -1,0 +1,56 @@
+body {
+    background-color: #4E7F71;
+    font-family: georgia;
+}
+
+h2 {
+    padding-top: 10px;
+    color: #1B6E57;
+    font-family: serif;
+    font-size: 2.5em;
+}
+
+h3 {
+    padding-top: 10px;
+    color: #1B6E57;
+    font-family: serif;
+    font-size: 2.1em;
+}
+
+li,p {
+    padding-top: 10px;
+    font-family: Georgia;
+    font-size: 1.2em;
+    line-height: 110%;
+}
+
+.logo-top {
+    background-image: url("/logo-top.png");
+    background-repeat: no-repeat;
+    padding: 60px;
+    margin: 0px;
+}
+
+.content {
+    background: white;
+}
+.container {
+}
+
+.headings {
+    font-color: white;
+}
+
+.footer {
+    color: white;
+}
+
+.right {
+    text-align: right;
+}
+
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
