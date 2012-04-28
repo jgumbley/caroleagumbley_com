@@ -11,7 +11,8 @@ config['S3_BUCKET'] = 'www.caroleagumbley.com'
 def config_value(key):
     return config[key]
 
-ext_allowed = tuple('jpg jpeg png html js css pdf'.split())
+#working round mime issue
+ext_allowed = tuple('html js css'.split())
 
 def allowed(filename):
     return (extension(filename) in ext_allowed)
